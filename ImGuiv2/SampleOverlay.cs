@@ -55,6 +55,7 @@
         bool first = false;
         protected override Task Render()
         {
+            // Render
             CoroutineHandler.Tick(ImGui.GetIO().DeltaTime);
             if (data % 5 == 1)
             {
